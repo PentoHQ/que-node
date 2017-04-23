@@ -1,0 +1,17 @@
+{
+  "name": "que-node",
+  "version": "0.0.1",
+  "description": "An interoperable Node.js port of the Ruby Que queuing library for PostgreSQL",
+  "main": "index.js",
+  "repository": "git@github.com:PentoHQ/que-node.git",
+  "author": "Emil Hagbarth <emil@pento.dk>",
+  "license": "MIT",
+  "bin": {
+    "que-node": "./cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "knex": "^0.12.9",
+    "pg": "^6.1.5"
+  }
+}
